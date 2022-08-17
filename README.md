@@ -1,1 +1,1 @@
-<!-- you can change your text between lower case and upper case letters, where you can capitalize, uncapitalize, convert to mix case and transform your text -->
+you can change your text between lower case and upper case letters, where you can capitalize, uncapitalize, convert to mix case and transform your text
