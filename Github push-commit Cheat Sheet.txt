@@ -1,0 +1,22 @@
+Push Project On Github
+
+1. git config --global user.name Sachin
+2. git config --global user.email "sachinpatel460@gmail.com"
+3. touch .gitignore
+4. git init
+5. git add .
+6. git commit -m "Initial commit by sachin"
+7. git status
+8. git remote add origin (put SSH link of repository after this command)
+9. git push origin master (it will fail If key is not Generated)
+10. ssh-keygen -t rsa -b 4096 -C "your_email@example.com" (you can get this command by google search "generate SSH key github")
+11. cat "enter path here, where key is created"
+12. (copy Key and past in Accont setting or Repository Setting)
+11. git push origin master
+
+
+when You want Update Repository
+1. git status  (it is option. it will show changes which you done)
+2. git add .
+3. git commit -m "new commit"
+4. git push origin master
