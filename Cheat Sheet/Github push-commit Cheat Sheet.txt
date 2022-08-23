@@ -2,7 +2,7 @@ Push Project On Github
 
 1. git config --global user.name Sachin
 2. git config --global user.email "sachinpatel460@gmail.com"
-3. touch .gitignore
+3. touch .gitignore //one file will create by this command. after put the folder name in file which don't want to upload on github
 4. git init
 5. git add .
 6. git commit -m "Initial commit by sachin"
@@ -19,4 +19,13 @@ when You want Update Repository
 1. git status  (it is option. it will show changes which you done)
 2. git add .
 3. git commit -m "new commit"
-4. git push origin master
+4. git push origin master  //master is branch name
+
+craete new Branch
+git checkout -b NewBranchName
+
+Switch Branch
+git checkout BranchName
+
+Pull Request
+git pull origin master // master is branch name

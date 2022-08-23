@@ -1,4 +1,5 @@
 // GET request 
+//base on Promise
 
 url = "https://reqres.in/api/users?page=2"
 
